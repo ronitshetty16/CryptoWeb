@@ -1,9 +1,9 @@
-import Bitcoin from "./bitcoin"
+import Coin from "./coin"
 
 export default function App() {
     return (
         <div className="container">
-            <Bitcoin />
+            <Coin />
         </div>
     )
 }

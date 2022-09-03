@@ -1,3 +1,26 @@
 * {
   box-sizing: border-box;
 }
+
+
+.main-bit{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* padding-left: 40%; */
+}
+
+.main-bit>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: rgb(173, 252, 255);
+  margin: 2rem;
+  border-radius: 4rem;
+  padding: 2rem;
+}
+
+.coin-name{
+  color: blue;
+}
