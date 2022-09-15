@@ -12,13 +12,19 @@
 
 .main-bit>div{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  gap: 5rem;
   background-color: rgb(173, 252, 255);
-  margin: 2rem;
-  border-radius: 4rem;
+  margin: 1rem;
+  border-radius: 2rem;
   padding: 2rem;
+  height: 30px;
+  box-shadow: 0px 0px 12px #18191b;;
+}
+
+.coin-image{
+  height : 30px
 }
 
 .coin-name{

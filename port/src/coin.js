@@ -20,7 +20,7 @@ req.onload = function(){
         Price.classList.add('coin-price');
         Symbol.classList.add('coin-symbol');
         Volume.classList.add('coin-volume');
-        Image.classList.add('coin-symbol');
+        Image.classList.add('coin-image');
         Market.classList.add('coin-market');
 
         Name.innerHTML = `${i.name}`;
@@ -32,11 +32,11 @@ req.onload = function(){
 
         const box=document.getElementsByClassName('main-bit')
         
+        main.appendChild(Image)
         main.appendChild(Name)
         main.appendChild(Price)
         main.appendChild(Symbol)
         main.appendChild(Volume)
-        main.appendChild(Image)
         main.appendChild(Market)
 
         box[0].appendChild(main);
@@ -54,7 +54,7 @@ req.onerror = function (){
     console.log(this);
 }
 
-req.open('GET','https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false')
+req.open('GET','https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false')
 req.send();
 
 //fetch('https://api.cryptonator.com/api/full/btc-usd')
