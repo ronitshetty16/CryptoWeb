@@ -1,4 +1,5 @@
-* {
+/*
+{
   box-sizing: border-box;
 }
 
@@ -7,7 +8,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* padding-left: 40%; */
+  
 }
 
 .main-bit>div{
