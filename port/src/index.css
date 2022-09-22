@@ -11,6 +11,9 @@
   
 }
 
+.
+
+
 .main-bit>div{
   display: flex;
   justify-content: space-between;
@@ -30,4 +33,28 @@
 
 .coin-name{
   color: blue;
+}
+*/
+
+.coin-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.coin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.coin-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.coin-container{
+  display: flex;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }

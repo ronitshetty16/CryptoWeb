@@ -1,6 +1,6 @@
 
 import React from "react";
-
+import './index.css';
 //const req = new XMLHttpRequest();
 
 
